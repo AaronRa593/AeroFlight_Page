@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    user-select: none;
+}
+
+/*Barra de Navegacion*/
+
+.nav_back{
+    background-color: #124778;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav_back a, h1{
+    margin-left: 40px;
+    font-size: 50px;
+    font-style: italic ;
+    cursor: default;
+    text-decoration: none;
+    color: white;
+}
+
+.navegation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.windows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav_link{
+    display: inline-block;
+    padding: 70px;
+    font-size: 30px;
+}
+
+.user_icon{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    font-size: 60px;
+}
+
+
+.nav_link:hover{
+
+}
