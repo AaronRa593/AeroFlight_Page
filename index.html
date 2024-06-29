@@ -4,7 +4,8 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-        </style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+       </style>
     <script src="https://kit.fontawesome.com/423d5e0e59.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <title>AeroFlight.com</title>
@@ -27,12 +28,25 @@
         </nav>
     </div>
     <section class="section1">
-        <div class="video1">
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/feDjdS-tXqU?si=cA5VYIy6Xbl0YZqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="part1">
+            <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/feDjdS-tXqU?si=wHyX9p-E6dY_YyHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div class="Flight">
-            <h2>hfklhakfhakfhakl</h2>
+        <div class="part2">
+            <div class="container">
+                <div class="flight_searching">
+                    <div class="origen">
+                        <label for="origen" class="labels">Origen</label>
+                        <input type="search" name="origen" class="search_bar">
+                    </div>
+                    <div class="destino">
+                        <label for="destino" class="labels">Destino</label>
+                        <input type="search" name="destino" class="search_bar">
+                    </div>
+                </div>
+                <div class="search_button">
+                    <input type="submit" class="button" placeholder="Buscar">
+                </div>
+            </div>
         </div>
-    </section>
 </body>
 </html>

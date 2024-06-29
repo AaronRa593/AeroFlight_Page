@@ -67,8 +67,75 @@ body{
 /*Seccion1*/
 
 .section1{
-    border-bottom: solid 2px black;
-    padding: 20px;
+    height: 170px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+
+/*parte1*/
+
+.part1 .video1{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+/*parte2*/
+
+.part2{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 85%;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: italic;
+    color: #124778;
+}
+
+.container{
+    margin-left: 50px ;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.flight_searching{
+    width: 100%;
+}
+
+.flight_searching, .search_bar{
     display: flex;
 }
 
+.search_bar{
+    height: 40px;
+    width: 400px;
+    border: solid 2px rgb(159, 153, 153);
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.labels{
+    margin-left: 10px;
+}
+
+.search_button{
+    position: fixed;
+    right: 115px;
+    top: 183px;
+}
+
+.button{
+    color: black;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+}
