@@ -67,7 +67,7 @@ body{
 /*Seccion1*/
 
 .section1{
-    height: 170px;
+    height: 200px;
     border: solid 1px black;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ body{
 /*parte1*/
 
 .part1 .video1{
-    height: 150px;
+    height: 175px;
     width: 300px;
     padding: 10px;
     margin-left: 10px;
@@ -128,9 +128,9 @@ body{
 }
 
 .search_button{
-    position: fixed;
+    position: static;
     right: 115px;
-    top: 183px;
+    top: 197px;
 }
 
 .button{
@@ -139,3 +139,5 @@ body{
     height: 40px;
     width: 150px;
 }
+
+/*section2*/
